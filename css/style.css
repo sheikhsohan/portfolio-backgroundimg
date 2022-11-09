@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navheader {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
+.navborder{
+    border-top: 2px solid #56505c;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    border-bottom: 2px solid #56505c;
+    background-color: rgb(0, 0, 0, 0.1);
+
+
+
+}
+h1 {
+    color: white;
+    font-size: 5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 16px 16px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+body{
+    background-image: url(../media/HG-Work-Portfolio-2017-Watermark-Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* start about section */
+
+h3{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+.headerabout{
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+img{
+    border: 2px solid white;
+    background-blend-mode: multiply;
+}
+
+.bio{
+    padding-left: 30px;
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.pp{
+    text-align: center;
+    font-weight: 900;
+    font-size: 14px;
+    color: white;
+}
+/* end about section */
+
+/* start skills section */
+.right1{
+    text-align: center;
+    padding-left: right;
+    font-size: 25px;
+    color: white;
+}
+
+.headerabout1{
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 350px;
+    color: white;
+}
+/* end skills section */
+/* img section star */
+
+.headerabout2{
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 350px;
+}
+
+/* footer */
+.footer{
+    border-top: 2px solid #56505c;
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
